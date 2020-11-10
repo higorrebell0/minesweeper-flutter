@@ -5,8 +5,8 @@ class ResultWidget extends StatelessWidget implements PreferredSizeWidget {
   final Function onRestart;
 
   ResultWidget({
-    this.won,
-    this.onRestart,
+    @required this.won,
+    @required this.onRestart,
   });
 
   Color _getCor() {
